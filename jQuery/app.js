@@ -59,7 +59,7 @@ $(document).ready(function () {
     $('#btn3').click(function () {
         if (counter < friends.length) {
             let item = $('<li></li>')
-            let listItem = $('friends[counter]')
+            let listItem = (friends[counter])
             counter++
             item.append(listItem)
             list.append(item)
